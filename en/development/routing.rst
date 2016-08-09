@@ -769,7 +769,7 @@ compatible with :ref:`prefix-routing`.
 Limiting the Routes Created
 ---------------------------
 
-By default CakePHP will connect 6 routes for each resource. If you'd like to
+By default CakePHP will connect 5 routes for each resource. If you'd like to
 only connect specific resource routes you can use the ``only`` option::
 
     $routes->resources('Articles', [
